@@ -1,0 +1,269 @@
+/* GLOBAL SELECTORS */
+
+body {
+    background-color: #ECECEC;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-logo-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-logo-items ul {
+    list-style: none;
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-items li {
+    padding-right: 15px;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+button {
+    width: 170px;
+    height: 50px;
+    background-color: #c4c4c4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    width: 90vw;
+    height: 45vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('/images/hero-image.png');
+    background-size: cover;
+    background-position: center;
+}
+.hero-section h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #F9DCCC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.intro h1 {
+    padding: 0 20px 0 20px;
+}
+.bio {
+    margin: auto 0;
+    height: 250px;
+    width: 60%;
+}
+.circle-header {
+    background-color: #F9DCCC;
+    height: 400px;
+    width: 40%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#circle {
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+}
+
+/* SKILLS */
+
+.we-know-skills {
+    width: 90vw;
+    background-color: #F9DCCC;
+}
+.skills-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skills-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skills-logo div {
+    display: flex;
+    flex-direction: column;
+}
+.skills-logo img {
+    height: 150px;
+    height: 150px;
+    margin: 0 30px 0 30px;
+}
+.we-do-skills {
+    background-color: #F9DCCC;
+}
+.we-do-skills-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.we-do-skills-img {
+    width: 70%;
+    height: auto;
+}
+.we-do-skills-img img {
+    width: 500px;
+    height: auto;
+}
+.skills-wrapper
+
+/* PROJECTS */
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section {
+    height: 400px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px auto;
+}
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+}
+.project-description {
+    width: 40%;
+    text-align: left;
+}
+.project-display {
+    width: 40%;
+    text-align: left;
+    border-radius: 20px 20px 0 0;
+}
+.project-display img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+.project-description h3 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-description p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-display h3 {
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 350px;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: #A0A0A0;
+}
+.footer-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.footer-description p {
+    width: 70%;
+    margin: 0 auto;
+}
+.social-icons img {
+    padding: 20px;
+}
+.disclaimer p {
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scrollToTop{
+    width: 40px; 
+    height: 50px;
+    padding: 10px; 
+    text-align: center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    background: no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+.scroll-arrow {
+    width: 40px;
+    height: 50px;
+}
+@media screen and (max-width: 1136px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 85px;
+        right: 40px;
+        background: no-repeat 0px 20px;
+    }
+}
+@media screen and (max-width: 587px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 135px;
+        right: 40px;
+        background: no-repeat 0px 20px;
+    }
+}
+}
